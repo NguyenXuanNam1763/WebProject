@@ -1,0 +1,29 @@
+﻿.content-tour {
+    margin-top: 50px;
+    overflow-x:scroll;
+    font-style:normal;
+    font-family:sans-serif;
+    color:#000000;
+}
+.hello-admin {
+    margin-left: 20px;
+}
+
+.grvTour {
+    margin: 0 20px;
+}
+.grvTour tr, .grvTour td{
+    padding:10px;
+}
+.text-decoration {
+    /*color:#00adef;*/
+    color:black;
+    font-size:13px;
+    text-align: right;
+}
+.button-edit{
+    border:none;
+}
+/*.btn-cancel {
+    color: #36c5f4;
+}*/

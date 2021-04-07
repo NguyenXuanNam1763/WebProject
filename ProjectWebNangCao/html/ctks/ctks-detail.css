@@ -1,0 +1,88 @@
+﻿.ctks-header {
+    width: 100%;
+    height: 75px;
+    background-color: #19B2E8;
+}
+.ctks-header-container {
+    width: 1170px;
+    height: 75px;
+    margin: auto;
+}
+.ctks-header-container:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.ctks-detail--search, .ctks-detail--calendar, .ctks-detail--book-room, .ctks-detail--update-price {
+    float: left;
+    height: 50px;
+    background-color: white;
+    margin-top: 12.5px;
+    border-radius: 3px;
+}
+.ctks-detail--search {
+    width: 35%;
+}
+.icon--ctks-detail--input{
+    padding:15px 5px 0 15px;
+}
+.ctks-detail--search input{
+    width:80%;
+    height:40px;
+    outline:none;
+    border:none;
+}
+.ctks-detail--calendar{
+    width:25%;
+    margin-left:1%;
+}
+.item-calendar{
+    width:45%;
+    float:left;
+}
+.gach-doc{
+    margin-left:5%;
+    width:1px;
+    height:50px;
+    background-color:gray;
+    float:left;
+}
+.icon-calendar-input{
+    float:left;
+    padding:15px 0 0 10px;
+
+}
+.item-calendar input {
+    width: 70%;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+}
+.ctks-detail--book-room{
+    width:20%;
+    margin-left:1%;
+    line-height:50px;
+    padding:0 10px;
+}
+.ctks-detail--book-room input{
+    border:none;
+    text-align:right;
+    width:30px;
+}
+.ctks-detail--update-price {
+    width:15%;
+    margin-left: 1%;
+    line-height: 50px;
+}
+.ctks-detail--update-price input{
+    height:50px;
+    border:none;
+    background-color: rgb(237,64,121);
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    width:100%;
+    border-radius:3px;
+    outline:none;
+    cursor:pointer;
+}
